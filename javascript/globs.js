@@ -13,7 +13,7 @@ function fetchValue(operation,val)
       dataType: 'json',
       success: function (res) {
       		console.log(res);
-		$('#output').empty();
+		$('#output').empty(); //empty the p tag before appending
 		$('#output').append('Output: '+res);
 		}
     });
