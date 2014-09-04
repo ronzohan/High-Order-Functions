@@ -3,11 +3,11 @@ var siteloc = "http://localhost/High-Order-Functions/";
 var scriptloc = "/script/"
 
  
-function fetchValue(operation,val)
+function fetchValue(exponential,val)
 {
   $.ajax({
       url: siteloc + scriptloc + "expo.py",
-      data: {operation:operation,
+      data: {exponential:exponential,
       		 val:val
              },
       dataType: 'json',
