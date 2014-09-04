@@ -1,0 +1,32 @@
+<html>
+   <head>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+ 
+   </head>
+   <body>
+   	<div class="container">
+		<div class="container ">
+			<input type="text" id="value" placeholder="Value"> 
+			<div class="btn-group">
+				<button type="button" class="btn btn-default" onclick="fetchValue(1,$('#value').val());">
+					Square It!
+				</button> 	
+				<button type="button" class="btn btn-default" onclick="fetchValue(2,$('#value').val());">
+					Cube It!
+				</button>
+			</div>
+			<p id="output">Output: </p>
+			
+		</div>
+		
+   	</div>  
+   	
+   </body>
+   	<script src="javascript/jquery.js"></script>
+		<script src="javascript/bootstrap.min.js"></script>
+		<script src="javascript/globs.js"></script>
+		<script src="javascript/jqinit.js"></script>  
+		  
+</html>
+
